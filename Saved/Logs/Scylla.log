@@ -1,4 +1,4 @@
-﻿Log file open, 09/30/20 13:47:05
+﻿Log file open, 09/30/20 13:56:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Scylla
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.060619
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.071124
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,13 +125,13 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 3800X 8-Core Processor             , GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
-LogInit: Command Line:  -EpicPortal -epicusername=ArchAngel457 -epicuserid=3b0480543ed6419e81d62be6b1db193d -epiclocale=en
-LogInit: Base Directory: F:/Unreal 4/UE_4.24/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -163,655 +163,546 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:868][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.30-17.47.05:868][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.30-17.47.05:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:869][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:877][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.30-17.47.05:877][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.30-17.47.05:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.30-17.47.05:878][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.30-17.47.05:878][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.30-17.47.05:880][  0]LogHAL: Display: Platform has ~ 32 GB [34265178112 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.30-17.47.05:880][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.30-17.47.05:880][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.30-17.47.05:880][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Scalability.ini]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.30-17.47.05:881][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [H:/Fall classes 2020/DIG4720/Scylla/Saved/Config/Windows/Engine.ini]
-[2020.09.30-17.47.05:881][  0]LogInit: Computer: DESKTOP-KMSC5SQ
-[2020.09.30-17.47.05:881][  0]LogInit: User: snope
-[2020.09.30-17.47.05:881][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.09.30-17.47.05:881][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.30-17.47.05:881][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.09.30-17.47.05:881][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.30-17.47.05:881][  0]LogMemory: Process Physical Memory: 105.23 MB used, 105.23 MB peak
-[2020.09.30-17.47.05:881][  0]LogMemory: Process Virtual Memory: 102.67 MB used, 102.67 MB peak
-[2020.09.30-17.47.05:881][  0]LogMemory: Physical Memory: 15874.20 MB used,  16803.63 MB free, 32677.82 MB total
-[2020.09.30-17.47.05:881][  0]LogMemory: Virtual Memory: 5179.38 MB used,  134212552.00 MB free, 134217728.00 MB total
-[2020.09.30-17.47.05:883][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.30-17.47.05:913][  0]LogInit: Using OS detected language (en-US).
-[2020.09.30-17.47.05:913][  0]LogInit: Using OS detected locale (en-US).
-[2020.09.30-17.47.05:914][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.09.30-17.47.06:032][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.30-17.47.06:447][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.30-17.47.06:447][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.30-17.47.06:597][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2020.09.30-17.47.06:597][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.30-17.47.06:597][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.30-17.47.06:597][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.30-17.47.06:669][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2020.09.30-17.47.06:669][  0]LogD3D11RHI:       11031/0/16338 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2020.09.30-17.47.06:671][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.30-17.47.06:671][  0]LogD3D11RHI:       0/0/16338 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.30-17.47.06:671][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.30-17.47.06:678][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.30-17.47.06:678][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.30-17.47.06:678][  0]LogWindows: EnumDisplayDevices:
-[2020.09.30-17.47.06:679][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2020.09.30-17.47.06:679][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2020.09.30-17.47.06:679][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2020.09.30-17.47.06:679][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2020.09.30-17.47.06:679][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.09.30-17.47.06:679][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2020.09.30-17.47.06:679][  0]LogD3D11RHI:   Driver Version: 456.55 (internal:27.21.14.5655, unified:456.55)
-[2020.09.30-17.47.06:679][  0]LogD3D11RHI:      Driver Date: 9-24-2020
-[2020.09.30-17.47.06:679][  0]LogRHI: Texture pool is 7721 MB (70% of 11031 MB)
-[2020.09.30-17.47.06:726][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.30-17.47.06:726][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.30-17.47.06:747][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.30-17.47.06:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.30-17.47.06:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.30-17.47.06:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.30-17.47.06:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.30-17.47.07:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.30-17.47.07:005][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.30-17.47.07:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.30-17.47.07:016][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.30-17.47.07:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.30-17.47.07:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.30-17.47.07:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.30-17.47.07:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.30-17.47.07:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.30-17.47.07:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.30-17.47.07:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.30-17.47.07:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.30-17.47.07:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.30-17.47.07:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.30-17.47.07:078][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.30-17.47.07:080][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.30-17.47.07:095][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (H:/Fall classes 2020/DIG4720/Scylla/Intermediate/Shaders/WorkingDirectory/28392/).
-[2020.09.30-17.47.07:095][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/snope/AppData/Local/Temp/UnrealShaderWorkingDir/7414F3804884445E22EA4BB93F23D700/'.
-[2020.09.30-17.47.07:095][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.30-17.47.07:096][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.30-17.47.07:096][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.30-17.47.07:682][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.30-17.47.07:727][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/snope/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.09.30-17.47.07:727][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/snope/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.09.30-17.47.07:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Fall classes 2020/DIG4720/Scylla/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.30-17.47.07:727][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.30-17.47.07:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Fall classes 2020/DIG4720/Scylla/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.30-17.47.07:727][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.30-17.47.07:736][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.30-17.47.07:736][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.30-17.47.07:736][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.30-17.47.07:737][  0]LogDerivedDataCache: Using Local data cache path C:/Users/snope/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.30-17.47.07:737][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.30-17.47.07:737][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.30-17.47.07:757][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.09.30-17.47.07:760][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.30-17.47.07:760][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.30-17.47.07:807][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2020.09.30-17.47.08:031][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.30-17.47.08:152][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.30-17.47.08:152][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.30-17.47.08:152][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.30-17.47.08:152][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.30-17.47.08:152][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.30-17.47.08:170][  0]LogNetVersion: Scylla 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 861083826)
-[2020.09.30-17.47.09:039][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.023145 seconds
-[2020.09.30-17.47.09:047][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.09.30-17.47.09:047][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.09.30-17.47.09:047][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.30-17.47.09:355][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.30-17.47.09:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.30-17.47.09:412][  0]SourceControl: Source control is disabled
-[2020.09.30-17.47.09:412][  0]SourceControl: Source control is disabled
-[2020.09.30-17.47.09:413][  0]SourceControl: Source control is disabled
-[2020.09.30-17.47.09:413][  0]SourceControl: Source control is disabled
-[2020.09.30-17.47.09:414][  0]SourceControl: Source control is disabled
-[2020.09.30-17.47.09:470][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.30-17.47.09:476][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.30-17.47.09:476][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.30-17.47.09:542][  0]LogOcInput: OculusInput pre-init called
-[2020.09.30-17.47.09:547][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.30-17.47.09:547][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.30-17.47.09:604][  0]LogEngine: Initializing Engine...
-[2020.09.30-17.47.09:605][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2020.09.30-17.47.09:606][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.30-17.47.09:869][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.30-17.47.09:874][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.30-17.47.09:883][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.30-17.47.09:883][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.30-17.47.09:884][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.30-17.47.09:884][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Name: Speakers (Arctis Pro Wireless)
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: Channel Order:
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.30-17.47.09:934][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.09.30-17.47.09:950][  0]LogAudioMixer: Display: Using Audio Device Speakers (Arctis Pro Wireless)
-[2020.09.30-17.47.09:954][  0]LogInit: FAudioDevice initialized.
-[2020.09.30-17.47.09:954][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.30-17.47.10:026][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/snope/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.09.30-17.47.10:026][  0]LogInit: Texture streaming: Enabled
-[2020.09.30-17.47.10:034][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.30-17.47.10:034][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.30-17.47.10:035][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.30-17.47.10:047][  0]LogInit: Transaction tracking system initialized
-[2020.09.30-17.47.10:055][  0]BlueprintLog: New page: Editor Load
-[2020.09.30-17.47.10:099][  0]LocalizationService: Localization service is disabled
-[2020.09.30-17.47.10:322][  0]LogFileCache: Scanning file cache for directory 'H:/Fall classes 2020/DIG4720/Scylla/Content/' took 0.00s
-[2020.09.30-17.47.10:322][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.30-17.47.10:322][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.30-17.47.10:868][  0]SourceControl: Source control is disabled
-[2020.09.30-17.47.10:868][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.30-17.47.10:868][  0]LightingResults: New page: Lighting Build
-[2020.09.30-17.47.10:869][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.30-17.47.10:869][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.30-17.47.10:869][  0]MapCheck: New page: Map Check
-[2020.09.30-17.47.10:869][  0]LightingResults: New page: Lighting Build
-[2020.09.30-17.47.10:895][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2020.09.30-17.47.10:954][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2020.09.30-17.47.10:957][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.30-17.47.10:983][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
-[2020.09.30-17.47.10:983][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.30-17.47.10:983][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
-[2020.09.30-17.47.10:984][  0]LogFileHelpers: Loading map 'Template_Default' took 0.116
-[2020.09.30-17.47.11:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.30-17.47.11:097][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.30-17.47.11:101][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.30-17.47.11:106][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.30-17.47.11:109][  0]LogCollectionManager: Loaded 0 collections in 0.000606 seconds
-[2020.09.30-17.47.11:120][  0]LogFileCache: Scanning file cache for directory 'H:/Fall classes 2020/DIG4720/Scylla/Saved/Collections/' took 0.00s
-[2020.09.30-17.47.11:120][  0]LogFileCache: Scanning file cache for directory 'H:/Fall classes 2020/DIG4720/Scylla/Content/Developers/snope/Collections/' took 0.00s
-[2020.09.30-17.47.11:120][  0]LogFileCache: Scanning file cache for directory 'H:/Fall classes 2020/DIG4720/Scylla/Content/Collections/' took 0.00s
-[2020.09.30-17.47.11:120][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3015 classes and 717 folders.
-[2020.09.30-17.47.11:122][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.30-17.47.11:168][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.30-17.47.11:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2020.09.30-17.47.11:209][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.30-17.47.11:210][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.30-17.47.11:214][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.30-17.47.11:292][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
-[2020.09.30-17.47.11:395][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.30-17.47.11:395][  0]LogLoad: (Engine Initialization) Total time: 6.56 seconds
-[2020.09.30-17.47.11:395][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.30-17.47.11:430][  0]LogAssetRegistry: Asset discovery search completed in 3.6240 seconds
-[2020.09.30-17.47.11:432][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
-[2020.09.30-17.47.11:433][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:\Users\snope\AppData\Local/Programs/Git/cmd/git.exe version
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2020.09.30-17.50.37:563][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:563][840]LogWindows: Warning: URL: C:\Users\snope\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2020.09.30-17.50.37:563][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2020.09.30-17.50.37:563][840]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2020.09.30-17.51.00:299][341]LogSlate: Window 'Source Control Login' being destroyed
-[2020.09.30-17.51.54:473][765]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.51.54:526][765]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.30-17.51.57:491][765]LogSlate: Window 'Save Level As' being destroyed
-[2020.09.30-17.51.57:545][771]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.02:715][382]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.08:351][382]LogSlate: Window 'Save Level As' being destroyed
-[2020.09.30-17.52.08:408][389]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.11:300][726]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.14:470][726]LogSlate: Window 'Save Level As' being destroyed
-[2020.09.30-17.52.14:530][733]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.21:175][521]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.30-17.52.21:186][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.52.21:210][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
-[2020.09.30-17.52.21:213][521]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld23921C9D41F3C7450FC153B2378AD09C.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
-[2020.09.30-17.52.21:366][521]LogFileHelpers: Saving map 'TestWorld' took 0.180
-[2020.09.30-17.52.21:374][521]AssetCheck: New page: Asset Save: TestWorld
-[2020.09.30-17.52.21:374][521]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.23:927][819]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.31:330][819]LogSlate: Window 'Save Level As' being destroyed
-[2020.09.30-17.52.31:354][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.52.31:378][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
-[2020.09.30-17.52.31:386][819]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMapAF455EA94F126E930C60CD8AFEC00CF9.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap'
-[2020.09.30-17.52.31:609][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset" SILENT=true
-[2020.09.30-17.52.31:616][819]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMap_BuiltDataAC0FA3E044F3454A53BB8F90EAC7A079.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset'
-[2020.09.30-17.52.31:786][819]LogFileHelpers: Saving map 'NewMap' took 0.452
-[2020.09.30-17.52.31:792][819]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.30-17.52.31:792][819]LogContentValidation: Display: Validating World /Game/Levels/NewMap.NewMap
-[2020.09.30-17.52.31:792][819]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/NewMap_BuiltData.NewMap_BuiltData
-[2020.09.30-17.52.31:909][833]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.52.35:356][244]LogObjectTools: Deleting 1 worlds: /Game/Levels/NewMap.NewMap
-[2020.09.30-17.52.35:356][244]LogObjectTools: Currently 1 active worlds: /Game/Levels/NewMap.NewMap
-[2020.09.30-17.52.37:858][244]LogSlate: Window 'Unable to delete level' being destroyed
-[2020.09.30-17.52.40:637][575]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.40:661][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2020.09.30-17.52.40:662][575]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.30-17.52.40:662][575]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.40:662][575]LoadErrors: New page: Loading map: TestWorld.umap
-[2020.09.30-17.52.40:662][575]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
-[2020.09.30-17.52.40:663][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.30-17.52.40:663][575]MapCheck: New page: Map Check
-[2020.09.30-17.52.40:663][575]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.40:688][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2020.09.30-17.52.40:689][575]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.30-17.52.40:689][575]LogAIModule: Creating AISystem for world TestWorld
-[2020.09.30-17.52.40:714][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
-[2020.09.30-17.52.40:717][575]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.30-17.52.40:718][575]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.041ms to complete.
-[2020.09.30-17.52.40:718][575]LogFileHelpers: Loading map 'TestWorld' took 0.057
-[2020.09.30-17.52.44:692][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.52.44:717][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
-[2020.09.30-17.52.44:720][ 38]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld9A4E2EBB47627643AD2FC9ADA57AFEC0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
-[2020.09.30-17.52.44:733][ 38]AssetCheck: New page: Asset Save: TestWorld
-[2020.09.30-17.52.44:733][ 38]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.45:719][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.52.45:743][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2020.09.30-17.52.45:745][147]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld794F6F7D4BAC21EC1E3016A9495368D0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
-[2020.09.30-17.52.45:757][147]AssetCheck: New page: Asset Save: TestWorld
-[2020.09.30-17.52.45:757][147]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.46:441][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.52.46:465][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.09.30-17.52.46:467][220]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld50FDE6944EB6F1A069DEE08D50558225.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
-[2020.09.30-17.52.46:479][220]AssetCheck: New page: Asset Save: TestWorld
-[2020.09.30-17.52.46:479][220]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.47:558][347]LogAIModule: Creating AISystem for world NewMap
-[2020.09.30-17.52.47:560][347]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/NewMap.NewMap
-[2020.09.30-17.52.47:585][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
-[2020.09.30-17.52.47:586][347]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.30-17.52.47:586][347]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.47:587][347]LoadErrors: New page: Loading map: NewMap.umap
-[2020.09.30-17.52.47:587][347]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
-[2020.09.30-17.52.47:587][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.30-17.52.47:587][347]MapCheck: New page: Map Check
-[2020.09.30-17.52.47:587][347]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.47:611][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2020.09.30-17.52.47:612][347]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.30-17.52.47:637][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
-[2020.09.30-17.52.47:641][347]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.30-17.52.47:641][347]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.046ms to complete.
-[2020.09.30-17.52.47:641][347]LogFileHelpers: Loading map 'NewMap' took 0.056
-[2020.09.30-17.52.50:228][651]LogAIModule: Creating AISystem for world TestWorld
-[2020.09.30-17.52.50:228][651]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.50:252][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2020.09.30-17.52.50:253][651]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.30-17.52.50:253][651]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.50:254][651]LoadErrors: New page: Loading map: TestWorld.umap
-[2020.09.30-17.52.50:254][651]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
-[2020.09.30-17.52.50:254][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.30-17.52.50:254][651]MapCheck: New page: Map Check
-[2020.09.30-17.52.50:254][651]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.50:279][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2020.09.30-17.52.50:280][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.30-17.52.50:305][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2020.09.30-17.52.50:309][651]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.30-17.52.50:309][651]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.043ms to complete.
-[2020.09.30-17.52.50:309][651]LogFileHelpers: Loading map 'TestWorld' took 0.057
-[2020.09.30-17.52.51:502][788]LogAIModule: Creating AISystem for world NewMap
-[2020.09.30-17.52.51:504][788]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/NewMap.NewMap
-[2020.09.30-17.52.51:530][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
-[2020.09.30-17.52.51:531][788]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.30-17.52.51:531][788]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.51:532][788]LoadErrors: New page: Loading map: NewMap.umap
-[2020.09.30-17.52.51:532][788]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
-[2020.09.30-17.52.51:532][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.30-17.52.51:532][788]MapCheck: New page: Map Check
-[2020.09.30-17.52.51:532][788]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.51:557][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
-[2020.09.30-17.52.51:559][788]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.30-17.52.51:584][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
-[2020.09.30-17.52.51:588][788]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.30-17.52.51:588][788]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.044ms to complete.
-[2020.09.30-17.52.51:588][788]LogFileHelpers: Loading map 'NewMap' took 0.058
-[2020.09.30-17.52.53:261][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.52.53:287][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.09.30-17.52.53:295][975]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMap3D1F78FD475958291221CBA246937FA0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap'
-[2020.09.30-17.52.53:374][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset" SILENT=true
-[2020.09.30-17.52.53:381][975]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMap_BuiltData7A85528D4FD87B9E5C776ABD9F2ACC9F.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset'
-[2020.09.30-17.52.53:390][975]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.30-17.52.53:390][975]LogContentValidation: Display: Validating World /Game/Levels/NewMap.NewMap
-[2020.09.30-17.52.53:390][975]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/NewMap_BuiltData.NewMap_BuiltData
-[2020.09.30-17.52.54:674][126]LogAIModule: Creating AISystem for world TestWorld
-[2020.09.30-17.52.54:675][126]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.52.54:699][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2020.09.30-17.52.54:700][126]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.30-17.52.54:700][126]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.54:701][126]LoadErrors: New page: Loading map: TestWorld.umap
-[2020.09.30-17.52.54:701][126]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
-[2020.09.30-17.52.54:701][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.30-17.52.54:701][126]MapCheck: New page: Map Check
-[2020.09.30-17.52.54:701][126]LightingResults: New page: Lighting Build
-[2020.09.30-17.52.54:726][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2020.09.30-17.52.54:727][126]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.30-17.52.54:754][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
-[2020.09.30-17.52.54:757][126]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.30-17.52.54:758][126]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.041ms to complete.
-[2020.09.30-17.52.54:758][126]LogFileHelpers: Loading map 'TestWorld' took 0.058
-[2020.09.30-17.52.56:008][271]MapCheck: New page: Map Check
-[2020.09.30-17.52.56:022][271]Cmd: MAP REBUILD ALLVISIBLE
-[2020.09.30-17.52.56:022][271]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2020.09.30-17.52.56:024][271]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=false
-[2020.09.30-17.52.56:053][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
-[2020.09.30-17.52.56:056][271]LightingResults: New page: Lighting Build - Sep 30, 2020, 9:52:56 AM
-[2020.09.30-17.52.56:078][271]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2020.09.30-17.52.56:110][271]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2020.09.30-17.52.56:118][271]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2020.09.30-17.52.56:625][271]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2020.09.30-17.52.56:625][271]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28392
-[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2020.09.30-17.53.03:074][271]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2020.09.30-17.53.03:074][271]MapCheck: New page: TestWorld - Sep 30, 2020, 9:53:03 AM
-[2020.09.30-17.53.03:074][271]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
-[2020.09.30-17.53.03:075][271]LogEditorBuildUtils: Build time 0:07
-[2020.09.30-17.53.03:138][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2020.09.30-17.53.03:847][303]Job is a success!
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      Bricks at depth
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      Bricks in each level
-[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          TestWorld 			 1 bricks 	 100.0% (Persistent Level)
-[2020.09.30-17.53.03:943][305]Lightmass on DESKTOP-KMSC5SQ: 388 ms total, 56 ms importing, 7 ms setup, 17 ms photons, 280 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 4.19 sec total, 0 ms processing.
-[2020.09.30-17.53.03:969][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2020.09.30-17.53.04:003][305]LogStaticLightingSystem: Illumination: 7.89 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2020.09.30-17.53.04:003][305]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2020.09.30-17.53.04:003][305]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2020.09.30-17.53.04:987][305]DumpUnbuiltLightIteractions
-[2020.09.30-17.53.04:987][305]Lights with unbuilt interactions: 0
-[2020.09.30-17.53.04:987][305]
-[2020.09.30-17.53.04:987][305]Primitives with unbuilt interactions: 0
-[2020.09.30-17.53.05:024][306]Cmd: MAP CHECK NOTIFYRESULTS
-[2020.09.30-17.53.05:024][306]MapCheck: New page: TestWorld - Sep 30, 2020, 9:53:05 AM
-[2020.09.30-17.53.05:024][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
-[2020.09.30-17.53.09:282][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.09.30-17.53.09:308][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2020.09.30-17.53.09:311][807]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld53B3EED7410DC652271E70BD851EBF82.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
-[2020.09.30-17.53.09:399][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld_BuiltData.uasset" SILENT=true
-[2020.09.30-17.53.09:401][807]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld_BuiltData46C9C83147010ED7523B098B3B1249BD.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld_BuiltData.uasset'
-[2020.09.30-17.53.09:545][807]AssetCheck: New page: Asset Save: multiple assets
-[2020.09.30-17.53.09:545][807]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
-[2020.09.30-17.53.09:545][807]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestWorld_BuiltData.TestWorld_BuiltData
-[2020.09.30-17.53.20:699][124]SourceControl: fatal: F:/Unreal 4/UE_4.24/Engine/Content: 'F:/Unreal 4/UE_4.24/Engine/Content' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
-[2020.09.30-17.53.26:329][124]LogSlate: Window 'Submit Files' being destroyed
-[2020.09.30-17.53.26:759][124]LogSourceControl: commit successful: [main a274659] Test 1
-[2020.09.30-17.53.26:847][124]SourceControl: [main a274659] Test 1
-[2020.09.30-17.53.26:847][124]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
-[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/NewMap.umap
-[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/NewMap_BuiltData.uasset
-[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/TestWorld.umap
-[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/TestWorld_BuiltData.uasset
-[2020.09.30-17.53.26:853][124]SourceControl: Commited [main a274659] Test 1.
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.30-17.56.06:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:666][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:669][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.30-17.56.06:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.30-17.56.06:670][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.30-17.56.06:670][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.30-17.56.06:670][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.30-17.56.06:673][  0]LogHAL: Display: Platform has ~ 16 GB [17073315840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.30-17.56.06:673][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.30-17.56.06:673][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.30-17.56.06:673][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.30-17.56.06:674][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Config/Windows/Engine.ini]
+[2020.09.30-17.56.06:674][  0]LogInit: Computer: LAPTOP-S2QS2M3G
+[2020.09.30-17.56.06:674][  0]LogInit: User: kevin
+[2020.09.30-17.56.06:674][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.30-17.56.06:674][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.30-17.56.06:675][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.30-17.56.06:675][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.30-17.56.06:675][  0]LogMemory: Process Physical Memory: 105.71 MB used, 105.71 MB peak
+[2020.09.30-17.56.06:675][  0]LogMemory: Process Virtual Memory: 101.34 MB used, 101.34 MB peak
+[2020.09.30-17.56.06:675][  0]LogMemory: Physical Memory: 9353.64 MB used,  6928.75 MB free, 16282.38 MB total
+[2020.09.30-17.56.06:675][  0]LogMemory: Virtual Memory: 5161.08 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.09.30-17.56.06:677][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.30-17.56.06:694][  0]LogInit: Using OS detected language (en-US).
+[2020.09.30-17.56.06:694][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.30-17.56.06:694][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.30-17.56.06:890][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.30-17.56.06:918][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.30-17.56.06:918][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.30-17.56.07:057][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.30-17.56.07:057][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.30-17.56.07:057][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.30-17.56.07:057][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.30-17.56.07:145][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2020.09.30-17.56.07:146][  0]LogD3D11RHI:       8031/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.30-17.56.07:169][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.09.30-17.56.07:169][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.30-17.56.07:171][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.30-17.56.07:171][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.30-17.56.07:171][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.30-17.56.07:210][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.30-17.56.07:210][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.30-17.56.07:210][  0]LogWindows: EnumDisplayDevices:
+[2020.09.30-17.56.07:210][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.09.30-17.56.07:211][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.30-17.56.07:211][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.09.30-17.56.07:211][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.30-17.56.07:212][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.30-17.56.07:212][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.30-17.56.07:212][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2020.09.30-17.56.07:212][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.30-17.56.07:212][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2020.09.30-17.56.07:212][  0]LogD3D11RHI:   Driver Version: 425.45 (internal:25.21.14.2545, unified:425.45)
+[2020.09.30-17.56.07:212][  0]LogD3D11RHI:      Driver Date: 4-23-2019
+[2020.09.30-17.56.07:212][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.09.30-17.56.07:275][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.30-17.56.07:275][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.30-17.56.07:286][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.30-17.56.07:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.30-17.56.07:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.30-17.56.07:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.30-17.56.07:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.30-17.56.07:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.30-17.56.07:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.30-17.56.07:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.30-17.56.07:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.30-17.56.07:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.30-17.56.07:655][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.30-17.56.07:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.30-17.56.07:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.30-17.56.07:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.30-17.56.07:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.30-17.56.07:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.30-17.56.07:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.30-17.56.07:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.30-17.56.07:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.30-17.56.07:755][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.30-17.56.07:758][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.30-17.56.07:793][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Intermediate/Shaders/WorkingDirectory/17764/).
+[2020.09.30-17.56.07:793][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/868E4CD14A8B86486F52889C9622EF38/'.
+[2020.09.30-17.56.07:794][  0]LogXGEController: Cleaning working directory: C:/Users/kevin/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.30-17.56.07:794][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.30-17.56.07:794][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.30-17.56.07:794][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.30-17.56.08:438][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.30-17.56.08:508][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/kevin/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.09.30-17.56.08:508][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.09.30-17.56.08:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.30-17.56.08:508][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.30-17.56.08:508][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.30-17.56.08:508][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.30-17.56.08:518][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.30-17.56.08:519][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.30-17.56.08:519][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.30-17.56.08:520][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.30-17.56.08:520][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.30-17.56.08:520][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.30-17.56.08:548][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.30-17.56.08:551][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.30-17.56.08:552][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.30-17.56.08:598][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.09.30-17.56.08:881][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.30-17.56.09:030][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.30-17.56.09:030][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.30-17.56.09:030][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.30-17.56.09:030][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.30-17.56.09:030][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.30-17.56.09:041][  0]LogNetVersion: Scylla 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 861083826)
+[2020.09.30-17.56.09:950][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.041043 seconds
+[2020.09.30-17.56.09:956][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.09.30-17.56.09:956][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.09.30-17.56.09:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.30-17.56.10:327][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.30-17.56.10:331][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.30-17.56.10:403][  0]SourceControl: Source control is disabled
+[2020.09.30-17.56.10:403][  0]SourceControl: Source control is disabled
+[2020.09.30-17.56.10:404][  0]SourceControl: Source control is disabled
+[2020.09.30-17.56.10:405][  0]SourceControl: Source control is disabled
+[2020.09.30-17.56.10:406][  0]SourceControl: Source control is disabled
+[2020.09.30-17.56.10:491][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.30-17.56.10:500][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.30-17.56.10:500][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.30-17.56.10:574][  0]LogOcInput: OculusInput pre-init called
+[2020.09.30-17.56.10:581][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.30-17.56.10:581][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.30-17.56.10:641][  0]LogEngine: Initializing Engine...
+[2020.09.30-17.56.10:642][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.30-17.56.10:643][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.30-17.56.10:946][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.30-17.56.10:960][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-17.56.10:974][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-17.56.10:974][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-17.56.10:974][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: Channel Order:
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-17.56.10:994][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-17.56.11:014][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.09.30-17.56.11:021][  0]LogInit: FAudioDevice initialized.
+[2020.09.30-17.56.11:021][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.30-17.56.11:066][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/kevin/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.09.30-17.56.11:074][  0]LogInit: Texture streaming: Enabled
+[2020.09.30-17.56.11:082][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.30-17.56.11:082][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.30-17.56.11:084][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.30-17.56.11:120][  0]LogInit: Transaction tracking system initialized
+[2020.09.30-17.56.11:129][  0]BlueprintLog: New page: Editor Load
+[2020.09.30-17.56.11:155][  0]LocalizationService: Localization service is disabled
+[2020.09.30-17.56.11:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/' took 0.00s
+[2020.09.30-17.56.11:382][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.30-17.56.11:382][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.30-17.56.11:908][  0]SourceControl: Source control is disabled
+[2020.09.30-17.56.11:908][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.56.11:909][  0]LightingResults: New page: Lighting Build
+[2020.09.30-17.56.11:909][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.56.11:909][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.56.11:909][  0]MapCheck: New page: Map Check
+[2020.09.30-17.56.11:909][  0]LightingResults: New page: Lighting Build
+[2020.09.30-17.56.11:941][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.09.30-17.56.12:005][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.09.30-17.56.12:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.56.12:037][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.09.30-17.56.12:037][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.56.12:037][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.175ms to complete.
+[2020.09.30-17.56.12:037][  0]LogFileHelpers: Loading map 'Template_Default' took 0.129
+[2020.09.30-17.56.12:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-17.56.12:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-17.56.12:158][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-17.56.12:165][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-17.56.12:170][  0]LogCollectionManager: Loaded 0 collections in 0.001740 seconds
+[2020.09.30-17.56.12:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/Collections/' took 0.00s
+[2020.09.30-17.56.12:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Developers/kevin/Collections/' took 0.00s
+[2020.09.30-17.56.12:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Collections/' took 0.00s
+[2020.09.30-17.56.12:182][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3015 classes and 717 folders.
+[2020.09.30-17.56.12:185][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.30-17.56.12:226][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.30-17.56.12:229][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.09.30-17.56.12:310][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.30-17.56.12:313][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.30-17.56.12:319][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.30-17.56.12:381][  0]LogRenderer: Reallocating scene render targets to support 684x360 Format 10 NumSamples 1 (Frame:1).
+[2020.09.30-17.56.12:490][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.09.30-17.56.12:490][  0]LogLoad: (Engine Initialization) Total time: 6.91 seconds
+[2020.09.30-17.56.12:490][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.30-17.56.12:544][  0]LogAssetRegistry: Asset discovery search completed in 3.9469 seconds
+[2020.09.30-17.56.12:550][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2020.09.30-17.56.12:553][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.30-17.56.12:584][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-17.56.32:656][204]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-17.56.32:672][204]LogAIModule: Creating AISystem for world TestWorld
+[2020.09.30-17.56.32:674][204]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.56.32:697][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.09.30-17.56.32:698][204]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.56.32:698][204]LightingResults: New page: Lighting Build
+[2020.09.30-17.56.32:699][204]LoadErrors: New page: Loading map: TestWorld.umap
+[2020.09.30-17.56.32:699][204]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.56.32:699][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.56.32:699][204]MapCheck: New page: Map Check
+[2020.09.30-17.56.32:699][204]LightingResults: New page: Lighting Build
+[2020.09.30-17.56.32:727][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.09.30-17.56.32:777][204]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.56.32:805][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.09.30-17.56.32:816][204]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.56.32:816][204]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2020.09.30-17.56.32:816][204]LogFileHelpers: Loading map 'TestWorld' took 0.117
+[2020.09.30-17.56.40:035][635]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.09.30-18.01.49:763][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.09.30-18.01.49:774][213]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/TestWorldDDD4F361404F1C7C6490AFB965219F52.tmp' to '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-18.01.49:802][213]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/TestWorld_BuiltData932633F24211FE3C0435D9BE99B09755.tmp' to '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld_BuiltData.uasset'
+[2020.09.30-18.01.49:820][213]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-18.01.49:820][213]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-18.01.49:820][213]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestWorld_BuiltData.TestWorld_BuiltData
+[2020.09.30-18.02.27:380][410]LogSlate: Window 'Source Control Login' being destroyed
+[2020.09.30-18.02.35:259][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.09.30-18.02.35:267][876]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/TestWorldB567AB0C4619826DC05F27BB8F4C814C.tmp' to '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-18.02.35:348][876]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/TestWorld_BuiltDataFF7EE63247E237810ED5CC84894BBAF0.tmp' to '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld_BuiltData.uasset'
+[2020.09.30-18.02.35:360][876]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-18.02.35:360][876]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-18.02.35:360][876]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestWorld_BuiltData.TestWorld_BuiltData
+[2020.09.30-18.03.15:523][865]LogEditorViewport: Clicking Background
+[2020.09.30-18.03.53:296][130]MapCheck: New page: Map Check
+[2020.09.30-18.03.53:312][130]Cmd: MAP REBUILD ALLVISIBLE
+[2020.09.30-18.03.53:313][130]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.09.30-18.03.53:385][130]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=false
+[2020.09.30-18.03.53:425][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.09.30-18.03.53:432][130]LightingResults: New page: Lighting Build - Sep 30, 2020, 10:03:53 AM
+[2020.09.30-18.03.53:473][130]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.30-18.03.53:511][130]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.30-18.03.53:527][130]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.30-18.03.54:051][130]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.30-18.03.54:051][130]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17764
+[2020.09.30-18.04.00:963][130]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.30-18.04.00:964][130]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.30-18.04.00:964][130]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.30-18.04.00:964][130]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.30-18.04.00:964][130]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.30-18.04.00:964][130]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.30-18.04.01:073][130]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.09.30-18.04.01:073][130]MapCheck: New page: TestWorld - Sep 30, 2020, 10:04:01 AM
+[2020.09.30-18.04.01:074][130]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.316ms to complete.
+[2020.09.30-18.04.01:076][130]LogEditorBuildUtils: Build time 0:07
+[2020.09.30-18.04.01:093][130]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.09.30-18.04.01:117][130]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.30-18.04.01:117][130]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.09.30-18.04.01:117][130]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.09.30-18.04.01:145][131]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.09.30-18.04.01:145][131]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.09.30-18.04.01:801][134]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.09.30-18.04.04:281][240]Job is a success!
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:      Bricks at depth
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.09.30-18.04.04:349][241]LogVolumetricLightmapImport:      Bricks in each level
+[2020.09.30-18.04.04:350][241]LogVolumetricLightmapImport:          TestWorld 			 2 bricks 	 100.0% (Persistent Level)
+[2020.09.30-18.04.04:385][241]Lightmass on LAPTOP-S2QS2M3G: 1.70 sec total, 121 ms importing, 31 ms setup, 30 ms photons, 351 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 3.85 sec total, 2 ms processing.
+[2020.09.30-18.04.04:385][241]LogStaticLightingSystem: TestWorld_BuiltData storing lightmap data for 2 meshes in 1 LightmapResourceClusters (2.0 Meshes per cluster).
+[2020.09.30-18.04.04:412][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.09.30-18.04.04:440][241]LogStaticLightingSystem: Illumination: 10.9 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.09.30-18.04.04:440][241]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.30-18.04.04:440][241]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.30-18.04.04:961][241]DumpUnbuiltLightIteractions
+[2020.09.30-18.04.04:961][241]Lights with unbuilt interactions: 0
+[2020.09.30-18.04.04:961][241]
+[2020.09.30-18.04.04:961][241]Primitives with unbuilt interactions: 0
+[2020.09.30-18.04.05:010][242]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.30-18.04.05:010][242]MapCheck: New page: TestWorld - Sep 30, 2020, 10:04:05 AM
+[2020.09.30-18.04.05:011][242]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.409ms to complete.
+[2020.09.30-18.04.12:924][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.09.30-18.04.12:932][710]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/TestWorldF3EEC37E48BE7E2A19CEF3B3361216D4.tmp' to '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-18.04.13:018][710]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Saved/TestWorld_BuiltData221A68A7404FE7B27B0842A43B0A6819.tmp' to '../../../../../../Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla/Content/Levels/TestWorld_BuiltData.uasset'
+[2020.09.30-18.04.13:029][710]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-18.04.13:029][710]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-18.04.13:029][710]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestWorld_BuiltData.TestWorld_BuiltData
+[2020.09.30-18.04.22:093][254]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content' is outside repository at 'C:/Users/kevin/Desktop/School/Casual Game/Scylla_Project/Project_Scylla'
+[2020.09.30-18.05.09:972][254]LogSlate: Window 'Submit Files' being destroyed
+[2020.09.30-18.05.10:159][254]LogSourceControl: commit successful: [main a10ac9c] Git
+[2020.09.30-18.05.10:203][254]SourceControl: [main a10ac9c] Git
+[2020.09.30-18.05.10:203][254]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2020.09.30-18.05.10:203][254]SourceControl:  rewrite Content/Levels/TestWorld.umap (95%)
+[2020.09.30-18.05.10:208][254]SourceControl: Commited [main a10ac9c] Git.
