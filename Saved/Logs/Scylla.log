@@ -729,3 +729,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.30-18.10.57:865][502]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
 [2020.09.30-18.10.57:865][502]SourceControl:  rewrite Content/Levels/TestWorld.umap (85%)
 [2020.09.30-18.10.57:870][502]SourceControl: Commited [main 5db90a2] test.
+[2020.09.30-18.11.31:866][749]LogEditorViewport: Clicking Background
+[2020.09.30-18.11.34:027][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-18.11.34:053][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.09.30-18.11.34:058][991]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorldD916A287479A7F48E30DAB8E43F0CF08.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-18.11.34:138][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld_BuiltData.uasset" SILENT=true
+[2020.09.30-18.11.34:141][991]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld_BuiltData7D00946F45FB78D91156CD940657C2F0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld_BuiltData.uasset'
+[2020.09.30-18.11.34:150][991]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-18.11.34:150][991]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-18.11.34:150][991]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestWorld_BuiltData.TestWorld_BuiltData
+[2020.09.30-18.11.50:546][589]SourceControl: fatal: F:/Unreal 4/UE_4.24/Engine/Content: 'F:/Unreal 4/UE_4.24/Engine/Content' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-18.11.54:185][589]LogSlate: Window 'Submit Files' being destroyed
+[2020.09.30-18.11.54:500][589]LogSourceControl: commit successful: [main 27b8e40] test
+[2020.09.30-18.11.54:578][589]SourceControl: [main 27b8e40] test
+[2020.09.30-18.11.54:578][589]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2020.09.30-18.11.54:578][589]SourceControl:  rewrite Content/Levels/TestWorld.umap (66%)
+[2020.09.30-18.11.54:584][589]SourceControl: Commited [main 27b8e40] test.
