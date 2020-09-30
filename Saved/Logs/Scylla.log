@@ -603,3 +603,215 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.30-17.47.11:430][  0]LogAssetRegistry: Asset discovery search completed in 3.6240 seconds
 [2020.09.30-17.47.11:432][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
 [2020.09.30-17.47.11:433][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:\Users\snope\AppData\Local/Programs/Git/cmd/git.exe version
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:562][840]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2020.09.30-17.50.37:563][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:563][840]LogWindows: Warning: URL: C:\Users\snope\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2020.09.30-17.50.37:563][840]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2020.09.30-17.50.37:563][840]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2020.09.30-17.51.00:299][341]LogSlate: Window 'Source Control Login' being destroyed
+[2020.09.30-17.51.54:473][765]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.51.54:526][765]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-17.51.57:491][765]LogSlate: Window 'Save Level As' being destroyed
+[2020.09.30-17.51.57:545][771]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.02:715][382]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.08:351][382]LogSlate: Window 'Save Level As' being destroyed
+[2020.09.30-17.52.08:408][389]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.11:300][726]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.14:470][726]LogSlate: Window 'Save Level As' being destroyed
+[2020.09.30-17.52.14:530][733]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.21:175][521]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-17.52.21:186][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.52.21:210][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.09.30-17.52.21:213][521]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld23921C9D41F3C7450FC153B2378AD09C.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-17.52.21:366][521]LogFileHelpers: Saving map 'TestWorld' took 0.180
+[2020.09.30-17.52.21:374][521]AssetCheck: New page: Asset Save: TestWorld
+[2020.09.30-17.52.21:374][521]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.23:927][819]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.31:330][819]LogSlate: Window 'Save Level As' being destroyed
+[2020.09.30-17.52.31:354][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.52.31:378][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.09.30-17.52.31:386][819]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMapAF455EA94F126E930C60CD8AFEC00CF9.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap'
+[2020.09.30-17.52.31:609][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset" SILENT=true
+[2020.09.30-17.52.31:616][819]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMap_BuiltDataAC0FA3E044F3454A53BB8F90EAC7A079.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset'
+[2020.09.30-17.52.31:786][819]LogFileHelpers: Saving map 'NewMap' took 0.452
+[2020.09.30-17.52.31:792][819]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-17.52.31:792][819]LogContentValidation: Display: Validating World /Game/Levels/NewMap.NewMap
+[2020.09.30-17.52.31:792][819]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/NewMap_BuiltData.NewMap_BuiltData
+[2020.09.30-17.52.31:909][833]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.52.35:356][244]LogObjectTools: Deleting 1 worlds: /Game/Levels/NewMap.NewMap
+[2020.09.30-17.52.35:356][244]LogObjectTools: Currently 1 active worlds: /Game/Levels/NewMap.NewMap
+[2020.09.30-17.52.37:858][244]LogSlate: Window 'Unable to delete level' being destroyed
+[2020.09.30-17.52.40:637][575]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.40:661][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.30-17.52.40:662][575]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.52.40:662][575]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.40:662][575]LoadErrors: New page: Loading map: TestWorld.umap
+[2020.09.30-17.52.40:662][575]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.52.40:663][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.52.40:663][575]MapCheck: New page: Map Check
+[2020.09.30-17.52.40:663][575]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.40:688][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.09.30-17.52.40:689][575]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.52.40:689][575]LogAIModule: Creating AISystem for world TestWorld
+[2020.09.30-17.52.40:714][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.09.30-17.52.40:717][575]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.52.40:718][575]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.041ms to complete.
+[2020.09.30-17.52.40:718][575]LogFileHelpers: Loading map 'TestWorld' took 0.057
+[2020.09.30-17.52.44:692][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.52.44:717][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.30-17.52.44:720][ 38]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld9A4E2EBB47627643AD2FC9ADA57AFEC0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-17.52.44:733][ 38]AssetCheck: New page: Asset Save: TestWorld
+[2020.09.30-17.52.44:733][ 38]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.45:719][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.52.45:743][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.09.30-17.52.45:745][147]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld794F6F7D4BAC21EC1E3016A9495368D0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-17.52.45:757][147]AssetCheck: New page: Asset Save: TestWorld
+[2020.09.30-17.52.45:757][147]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.46:441][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.52.46:465][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.09.30-17.52.46:467][220]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld50FDE6944EB6F1A069DEE08D50558225.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-17.52.46:479][220]AssetCheck: New page: Asset Save: TestWorld
+[2020.09.30-17.52.46:479][220]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.47:558][347]LogAIModule: Creating AISystem for world NewMap
+[2020.09.30-17.52.47:560][347]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/NewMap.NewMap
+[2020.09.30-17.52.47:585][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.09.30-17.52.47:586][347]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.52.47:586][347]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.47:587][347]LoadErrors: New page: Loading map: NewMap.umap
+[2020.09.30-17.52.47:587][347]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.52.47:587][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.52.47:587][347]MapCheck: New page: Map Check
+[2020.09.30-17.52.47:587][347]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.47:611][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.09.30-17.52.47:612][347]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.52.47:637][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.09.30-17.52.47:641][347]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.52.47:641][347]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.046ms to complete.
+[2020.09.30-17.52.47:641][347]LogFileHelpers: Loading map 'NewMap' took 0.056
+[2020.09.30-17.52.50:228][651]LogAIModule: Creating AISystem for world TestWorld
+[2020.09.30-17.52.50:228][651]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.50:252][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.30-17.52.50:253][651]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.52.50:253][651]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.50:254][651]LoadErrors: New page: Loading map: TestWorld.umap
+[2020.09.30-17.52.50:254][651]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.52.50:254][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.52.50:254][651]MapCheck: New page: Map Check
+[2020.09.30-17.52.50:254][651]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.50:279][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.09.30-17.52.50:280][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.52.50:305][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.09.30-17.52.50:309][651]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.52.50:309][651]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.043ms to complete.
+[2020.09.30-17.52.50:309][651]LogFileHelpers: Loading map 'TestWorld' took 0.057
+[2020.09.30-17.52.51:502][788]LogAIModule: Creating AISystem for world NewMap
+[2020.09.30-17.52.51:504][788]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/NewMap.NewMap
+[2020.09.30-17.52.51:530][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.09.30-17.52.51:531][788]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.52.51:531][788]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.51:532][788]LoadErrors: New page: Loading map: NewMap.umap
+[2020.09.30-17.52.51:532][788]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.52.51:532][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.52.51:532][788]MapCheck: New page: Map Check
+[2020.09.30-17.52.51:532][788]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.51:557][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.09.30-17.52.51:559][788]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.52.51:584][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.09.30-17.52.51:588][788]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.52.51:588][788]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.044ms to complete.
+[2020.09.30-17.52.51:588][788]LogFileHelpers: Loading map 'NewMap' took 0.058
+[2020.09.30-17.52.53:261][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.52.53:287][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.09.30-17.52.53:295][975]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMap3D1F78FD475958291221CBA246937FA0.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap.umap'
+[2020.09.30-17.52.53:374][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset" SILENT=true
+[2020.09.30-17.52.53:381][975]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/NewMap_BuiltData7A85528D4FD87B9E5C776ABD9F2ACC9F.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/NewMap_BuiltData.uasset'
+[2020.09.30-17.52.53:390][975]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-17.52.53:390][975]LogContentValidation: Display: Validating World /Game/Levels/NewMap.NewMap
+[2020.09.30-17.52.53:390][975]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/NewMap_BuiltData.NewMap_BuiltData
+[2020.09.30-17.52.54:674][126]LogAIModule: Creating AISystem for world TestWorld
+[2020.09.30-17.52.54:675][126]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.52.54:699][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.30-17.52.54:700][126]Cmd: MAP LOAD FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-17.52.54:700][126]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.54:701][126]LoadErrors: New page: Loading map: TestWorld.umap
+[2020.09.30-17.52.54:701][126]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-17.52.54:701][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-17.52.54:701][126]MapCheck: New page: Map Check
+[2020.09.30-17.52.54:701][126]LightingResults: New page: Lighting Build
+[2020.09.30-17.52.54:726][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.09.30-17.52.54:727][126]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-17.52.54:754][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.09.30-17.52.54:757][126]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-17.52.54:758][126]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.041ms to complete.
+[2020.09.30-17.52.54:758][126]LogFileHelpers: Loading map 'TestWorld' took 0.058
+[2020.09.30-17.52.56:008][271]MapCheck: New page: Map Check
+[2020.09.30-17.52.56:022][271]Cmd: MAP REBUILD ALLVISIBLE
+[2020.09.30-17.52.56:022][271]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.09.30-17.52.56:024][271]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=false
+[2020.09.30-17.52.56:053][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.30-17.52.56:056][271]LightingResults: New page: Lighting Build - Sep 30, 2020, 9:52:56 AM
+[2020.09.30-17.52.56:078][271]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.30-17.52.56:110][271]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.30-17.52.56:118][271]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.30-17.52.56:625][271]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.30-17.52.56:625][271]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28392
+[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.30-17.53.02:976][271]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.30-17.53.03:074][271]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.09.30-17.53.03:074][271]MapCheck: New page: TestWorld - Sep 30, 2020, 9:53:03 AM
+[2020.09.30-17.53.03:074][271]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
+[2020.09.30-17.53.03:075][271]LogEditorBuildUtils: Build time 0:07
+[2020.09.30-17.53.03:138][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.09.30-17.53.03:847][303]Job is a success!
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      Bricks at depth
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:      Bricks in each level
+[2020.09.30-17.53.03:930][305]LogVolumetricLightmapImport:          TestWorld 			 1 bricks 	 100.0% (Persistent Level)
+[2020.09.30-17.53.03:943][305]Lightmass on DESKTOP-KMSC5SQ: 388 ms total, 56 ms importing, 7 ms setup, 17 ms photons, 280 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 4.19 sec total, 0 ms processing.
+[2020.09.30-17.53.03:969][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.09.30-17.53.04:003][305]LogStaticLightingSystem: Illumination: 7.89 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2020.09.30-17.53.04:003][305]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.30-17.53.04:003][305]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2020.09.30-17.53.04:987][305]DumpUnbuiltLightIteractions
+[2020.09.30-17.53.04:987][305]Lights with unbuilt interactions: 0
+[2020.09.30-17.53.04:987][305]
+[2020.09.30-17.53.04:987][305]Primitives with unbuilt interactions: 0
+[2020.09.30-17.53.05:024][306]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.30-17.53.05:024][306]MapCheck: New page: TestWorld - Sep 30, 2020, 9:53:05 AM
+[2020.09.30-17.53.05:024][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2020.09.30-17.53.09:282][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.30-17.53.09:308][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.09.30-17.53.09:311][807]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld53B3EED7410DC652271E70BD851EBF82.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld.umap'
+[2020.09.30-17.53.09:399][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestWorld_BuiltData" FILE="H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld_BuiltData.uasset" SILENT=true
+[2020.09.30-17.53.09:401][807]LogSavePackage: Moving 'H:/Fall classes 2020/DIG4720/Scylla/Saved/TestWorld_BuiltData46C9C83147010ED7523B098B3B1249BD.tmp' to 'H:/Fall classes 2020/DIG4720/Scylla/Content/Levels/TestWorld_BuiltData.uasset'
+[2020.09.30-17.53.09:545][807]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.30-17.53.09:545][807]LogContentValidation: Display: Validating World /Game/Levels/TestWorld.TestWorld
+[2020.09.30-17.53.09:545][807]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/TestWorld_BuiltData.TestWorld_BuiltData
+[2020.09.30-17.53.20:699][124]SourceControl: fatal: F:/Unreal 4/UE_4.24/Engine/Content: 'F:/Unreal 4/UE_4.24/Engine/Content' is outside repository at 'H:/Fall classes 2020/DIG4720/Scylla'
+[2020.09.30-17.53.26:329][124]LogSlate: Window 'Submit Files' being destroyed
+[2020.09.30-17.53.26:759][124]LogSourceControl: commit successful: [main a274659] Test 1
+[2020.09.30-17.53.26:847][124]SourceControl: [main a274659] Test 1
+[2020.09.30-17.53.26:847][124]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/NewMap.umap
+[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/NewMap_BuiltData.uasset
+[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/TestWorld.umap
+[2020.09.30-17.53.26:847][124]SourceControl:  create mode 100644 Content/Levels/TestWorld_BuiltData.uasset
+[2020.09.30-17.53.26:853][124]SourceControl: Commited [main a274659] Test 1.
